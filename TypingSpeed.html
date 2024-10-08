@@ -5,36 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Speed Test Game</title>
-    <link rel="stylesheet" href="./TypingSpeed.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/fontawesome.css">
+    <link rel="stylesheet" href="./CSS/fontawesome.min.css">
+    <link rel="stylesheet" href="./CSS/TypingSpeed.css">
+    <title>Typing Speed Test Game</title>
 </head>
 
 <body>
 
     <div class="game">
-        <div class="name">Typing Speed Test Game</div>
+        <div class="name fw-bold">Typing Speed Test Game</div>
         <div class="container">
             <div class="message">
                 You are Playing On
-                <span class="lvl"></span> Level & you Have <span class="seconds"></span> Seconds To Type The Word
+                <span class="lvl"></span> Level & you Have 
+                <span class="seconds"></span> Seconds To Type The Word
             </div>
             <div class="start">Start Playing</div>
             <div class="the-word"></div>
-            <input type="text" class="input" />
+            <input type="text" class="input fw-bold" />
             <div class="upcoming-words">Words Will Show Here</div>
             <div class="control">
                 <div class="time">Time Left : <span></span> Seconds</div>
-                <div class="score">Score : <span class="got">0</span> From <span class="total"></span></div>
+                <div class="score">Score : <span class="got">0</span> From 
+                    <span class="total"></span></div>
             </div>
             <div class="finish"></div>
             <div class="restart">Restart Game</div>
         </div>
-    </div>
 
-    <script src="./TypingSpeed.js"></script>
+    <div class="footer fw-bold text-center">
+        <div class="container">
+            © 2022 
+            <a href="mailto:mariocpu2016@gmail.com?subject=Contact" 
+            class="text-decoration-none merosh">MeroSH</a> 
+            All Right Reserved
+
+            <div class="socIcons mt-4 mb-2 p-2">
+                <a href="https://www.facebook.com/profile.php?id=61565837540720"
+                class="text-decoration-none">
+                    <i class="fab fa-facebook me-5 fs-4 icon"></i>
+                </a>
+                <a href="https://vk.com/mer0sh">
+                    <i class="fa-brands fa-vk me-5 fs-4 icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mario-shawky-340996108">
+                    <i class="fab fa-linkedin fs-4 icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="./JS/TypingSpeed.js"></script>
 
 </body>
 
